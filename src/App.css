@@ -127,3 +127,26 @@ li {
     font-size: 0.85rem;
   }
 }
+
+.relato details {
+  width: 100%;
+}
+
+.relato summary {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  padding: 1rem 0;
+}
+
+.relato-content {
+  margin-top: 1rem;
+}
+
+.relato-content p {
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 1rem;
+  text-align: justify;
+}

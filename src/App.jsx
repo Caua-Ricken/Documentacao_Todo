@@ -10,6 +10,65 @@ function App() {
         <p>Rotas para testar no Insomnia ou Postman</p>
       </header>
 
+      <section className="card relato">
+        <details>
+          <summary>📋 Relato rápido do desenvolvimento</summary>
+
+          <div className="relato-content">
+            <p>
+              Para desenvolver o teste, organizei o projeto separando as
+              responsabilidades entre front-end, back-end e banco de dados.
+              Primeiro defini as funcionalidades principais da aplicação:
+              adicionar, listar, editar, excluir e pesquisar tarefas. Depois
+              estruturei a API e, em seguida, desenvolvi a interface no React
+              consumindo essas rotas.
+            </p>
+
+            <p>
+              No back-end, utilizei Node.js com Express, seguindo uma arquitetura
+              baseada em MVC, separando rotas, controllers, models e configuração
+              do banco. Para o banco de dados, utilizei MySQL, com Sequelize como
+              ORM para facilitar a comunicação entre a aplicação e o banco
+              relacional. Também utilizei nodemon apenas como dependência de
+              desenvolvimento, para agilizar os testes internos durante a criação
+              da API.
+            </p>
+
+            <p>
+              No front-end, utilizei React Vite com React Router DOM, criando
+              páginas e componentes para organizar melhor a navegação e a
+              interface da aplicação. A aplicação permite cadastrar tarefas com
+              título, descrição, data prevista e status, além de listar, editar,
+              excluir e pesquisar tarefas.
+            </p>
+
+            <p>
+              Também utilizei ferramentas de Inteligência Artificial como apoio
+              durante o desenvolvimento, apenas para auxiliar em alguns ajustes de
+              CSS, refinamentos visuais e no processo de hospedagem da aplicação.
+              Dessa forma, consegui otimizar o tempo em tarefas mais operacionais
+              e direcionar maior atenção à lógica de negócio, à integração entre
+              front-end e back-end e à implementação das funcionalidades e regras
+              principais do sistema.
+            </p>
+
+            <p>
+              Como diferencial, publiquei a aplicação online utilizando serviços
+              gratuitos: Vercel para o front-end, Render para o back-end e Aiven
+              para o banco de dados MySQL. Dessa forma, a aplicação pode ser
+              acessada e testada diretamente pelo navegador.
+            </p>
+
+            <p>
+              De forma geral, procurei desenvolver uma solução simples,
+              funcional e organizada, priorizando a clareza do código, a
+              separação de responsabilidades e o cumprimento dos requisitos
+              solicitados no teste.
+            </p>
+          </div>
+        </details>
+      </section>
+
       <main className="container">
         <section className="card intro">
           <h2>URL Base</h2>
