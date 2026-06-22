@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  const baseUrl = "https://SEU-BACKEND.onrender.com/api/tasks";
+  const baseUrl = "https://todo-list-ajcm.onrender.com/api/tasks";
 
   return (
     <div className="app">
